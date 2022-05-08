@@ -12,17 +12,28 @@ textarea {
   padding: 10px;
 }
 
+header h1,
+p {
+  color: black;
+  font-style: italic;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid #88898c;
+  background-color: royalblue;
 }
 
 .hourBlock {
   text-align: center;
   border-radius: 15px;
+}
+
+.col-1 {
+  font-weight: bold;
 }
 
 .row {
@@ -41,7 +52,7 @@ textarea {
   border: 1px solid #88898c;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #152c40;
+  background-color: royalblue;
   color: white;
 }
 
